@@ -1,0 +1,140 @@
+body{
+    background-color: #ECECEB;
+}
+
+.navbar{
+    background-color:#07617d;
+    border-radius: 36px;
+    margin: 0px;
+  
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float:left ;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .current{
+   color: black;
+}
+
+.navbar li a:hover{
+    color: rgba(6, 189, 250, 0.685);
+}
+
+.about img {
+    border-radius: 50%;
+  width:140px; /* you can use % */
+  height:170px;
+  align-self: center;
+}
+
+.about{
+	background-size: cover;
+     background-position: center center;
+    background-attachment: fixed;
+	margin: auto;
+	overflow: hidden;
+	color: black;
+	position: relative;
+  width: 1000px;
+  height: 650px;
+  display: center;
+}
+.about p{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home {
+    background-size: cover;
+    background-position: center center;
+   background-attachment: fixed;
+   margin: auto;
+   overflow: hidden;
+   color: black;
+   position: relative;
+   width: 1000px;
+   height: 650px;
+}
+
+.home p{
+    padding-top: 25%;
+    
+    text-align:center;
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.about p{
+    text-align: center;
+    font-size:medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+.about img{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 10%;
+    height: 10%;
+}
+
+.contact{
+    background-size: cover;
+    background-position: center center;
+   background-attachment: fixed;
+   margin: auto;
+   overflow: hidden;
+   color: black;
+   position: relative;
+   width: 1000px;
+   height: 650px;
+}
+
+.contact img{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+.contact p{
+    text-align: center;
+    padding-bottom: 5%;
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 300px 300px 300px;
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+
+  .grid-item img{
+      width: 100%;
+      height: 100%;
+    
+    }
